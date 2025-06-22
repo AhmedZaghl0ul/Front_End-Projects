@@ -1,0 +1,284 @@
+#home {
+    width: 100%;
+    height: 600px;
+}
+
+#home img {
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+}
+
+.navbar {
+    width: 100%;
+    height: 80px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(13, 13, 34, 0.95);
+}
+
+.navbar .logo {
+    float: left;
+    padding-left: 60px;
+    padding-top: 20px;
+    font-family: monospace;
+    font-size: 36px;
+    font-weight: 800;
+    color: white;
+    text-decoration: none;
+}
+
+span {
+    color: rgb(255, 202, 69);
+}
+
+.navbar .right {
+    float: right;
+    margin-top: 30px;
+}
+
+.navbar .right a {
+    font-family: monospace;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    padding-right: 50px;
+}
+
+.navbar .right a:hover {
+    padding: 5px;
+    margin-right: 30px;
+    border: 2px double rgb(202, 151, 22);
+}
+
+.caption {
+    position: absolute;
+    top: 150px;
+    left: 450px;
+    text-align: center;
+    font-family: monospace;
+    color: rgba(0, 0, 0, 0.95);
+    line-height: 0px;
+}
+
+.caption h6 {
+    font-size: 30px;
+    text-transform: uppercase;
+    text-shadow: 2px 2px rgb(202, 151, 22);
+}
+
+.caption h2 {
+    font-size: 35px;
+    text-shadow: 2px 2px rgb(202, 151, 22);
+}
+
+.caption a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+.caption button {
+    height: 50px;
+    width: 160px;
+    background-color: rgb(247, 199, 78);
+    text-align: center;
+    margin-top: 20px;
+    border: none;
+}
+
+.animations {
+    position: absolute;
+    top: 460px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 90px;
+}
+
+.animation-box {
+    color: white;
+    background-color: black;
+    font-weight: bold;
+    font-family: monospace;
+    padding: 35px;
+    text-align: center;
+    min-width: 160px;
+    text-transform: uppercase;
+}
+
+.animation-box:hover {
+    background-color: brown;
+}
+
+#about {
+    height: 300px;
+    width: 1100px;
+    padding: 100px;
+    background-image: linear-gradient(to right, rgb(202, 151, 22), rgba(22, 34, 57, 0.95));
+}
+
+#im {
+    float: left;
+    width: 500px;
+    height: 300px;
+    border-bottom-right-radius: 200px;
+}
+
+#about h1 {
+    color: rgb(202, 151, 22);
+    text-transform: uppercase;
+    font-size: 25px;
+}
+
+#about .right {
+    float: right;
+    height: 300px;
+    width: 400px;
+    text-align: center;
+    color: white;
+}
+
+#about .right p {
+    font-size: 20px;
+}
+
+#courses {
+    width: 100%;
+    margin-top: 40px;
+}
+
+.courses-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+    padding: 20px;
+    max-width: 100%;
+    box-sizing: border-box;
+}
+
+.head {
+    text-align: center;
+    color: black;
+    font-size: 35px;
+    font-weight: bolder;
+    margin-top: 30px;
+    text-transform: uppercase;
+    text-shadow: 2px 2px rgb(202, 151, 22);
+}
+
+.corcon {
+    width: 20%;
+    min-width: 180px;
+    height: 330px;
+    background-image: linear-gradient(rgb(202, 151, 22), rgba(22, 34, 57, 0.95));
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.corcon img {
+    width: 100px;
+    height: auto;
+    margin: 0 auto 10px auto;
+}
+
+@media (max-width: 1000px) {
+    .corcon {
+        width: 45%;
+    }
+}
+
+@media (max-width: 600px) {
+    .corcon {
+        width: 90%;
+    }
+}
+
+.divim {
+    width: 200px;
+    height: 150px;
+    border-bottom-right-radius: 100px;
+}
+
+#divP {
+    width: 100%;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    font-weight: bolder;
+}
+
+.corcon h1 {
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#contact {
+    width: 100%;
+    height: 600px;
+    background-image: linear-gradient(to right, rgb(202, 151, 22), rgba(22, 34, 57, 0.95));
+    margin-top: 40px;
+}
+
+#contact h1 {
+    color: white;
+    text-shadow: 2px 2px black;
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 50px;
+}
+
+#contact form {
+    margin: 50px;
+    background-color: rgba(255, 255, 255, 0.4);
+    width: 660px;
+    height: 400px;
+}
+
+.in {
+    width: 250px;
+    height: 22px;
+    margin: 20px;
+    padding: 10px;
+    border: none;
+    background-color: rgba(47, 53, 65, 0.5);
+    color: white;
+}
+
+::placeholder {
+    color: white;
+    font-size: 18px;
+}
+
+.mes {
+    width: 600px;
+    height: 130px;
+    margin: 20px;
+    padding: 10px;
+    border: none;
+    background-color: rgba(47, 53, 65, 0.5);
+}
+
+#butt {
+    height: 35px;
+    width: 260px;
+    background-color: rgb(202, 151, 22);
+    text-align: center;
+    border: none;
+    margin: 20px;
+    margin-top: 0px;
+    color: white;
+    text-transform: uppercase;
+    border-radius: 20px;
+}
